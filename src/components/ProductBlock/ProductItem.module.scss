@@ -1,0 +1,27 @@
+@import '../../scss/variables';
+
+.product__wrapper {
+  display: flex;
+  justify-content: center;
+  .active {
+    border: 7px solid $activeColor;
+  }
+}
+
+.product__info {
+  .product__category {
+    margin-bottom: 25px;
+    span {
+      background-color: $white;
+      color: $textColor;
+      padding: 10px 20px 10px 15px;
+      border-radius: 9999px;
+    }
+  }
+
+  .product__title {
+    span {
+      font-size: 40px;
+    }
+  }
+}

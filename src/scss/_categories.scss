@@ -1,0 +1,22 @@
+.categories {
+  margin-bottom: 75px;
+  ul {
+    display: flex;
+    justify-content: center;
+    li {
+      color: $textColor;
+      margin-right: 30px;
+      cursor: pointer;
+
+      &.activeC {
+        color: $activeColor;
+      }
+    }
+  }
+}
+
+@media (max-width: 1040px) {
+  .categories {
+    display: none;
+  }
+}

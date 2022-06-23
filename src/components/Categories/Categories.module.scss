@@ -1,0 +1,17 @@
+@import '../../scss/variables';
+
+.categories {
+  margin-bottom: 75px;
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+  li {
+    color: $textColor;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  .active {
+    color: $activeColor;
+  }
+}
